@@ -156,7 +156,7 @@ body h1 {
   text-align: center;
   color: #000000;
 }
-.credits span{
+.credits span {
   position: relative;
   color: #fff;
   overflow: hidden;
@@ -164,7 +164,7 @@ body h1 {
 .credits span:before {
   content: "You";
   position: absolute;
-  background: linear-gradient(90deg, transparent 0%, #B929D1 5%, #B929D1 100%);
+  background: linear-gradient(90deg, transparent 0%, #b929d1 5%, #b929d1 100%);
   border: solid black;
   border-radius: 20px;
   top: 120%;
@@ -172,7 +172,6 @@ body h1 {
   height: 100%;
   animation: animate 10s linear forwards;
 }
-
 @keyframes animate {
   0% {
     top: 0%;
