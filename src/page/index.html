@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../public/css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <header>
+      <h1>A simple calculator</h1>
+    </header>
+    <main>
+      <div class="body-calculator">
+        <div class="visor-calculator">
+          <div class="previous-operand" data-previous></div>
+          <div class="current-operand" data-current></div>
+        </div>
+        <div class="body-numbers">
+          <div class="number"><button data-number>7</button></div>
+          <div class="number"><button data-number>8</button></div>
+          <div class="number"><button data-number>9</button></div>
+          <div class="number"><button data-number>6</button></div>
+          <div class="number"><button data-number>5</button></div>
+          <div class="number"><button data-number>4</button></div>
+          <div class="number"><button data-number>1</button></div>
+          <div class="number"><button data-number>2</button></div>
+          <div class="number"><button data-number>3</button></div>
+          <div class="number"><button data-number>.</button></div>
+          <div class="number"><button data-number>0</button></div>
+          <div class="number"><button data-equals>=</button></div>
+          <div class="number-function"><button data-clear>CLEAR</button></div>
+          <div class="number-function"><button data-delete>DEL</button></div>
+          
+        </div>
+        <div class="operators-out"><button data-operation>+</button></div>
+        <div class="operators-out"><button data-operation>-</button></div>
+        <div class="operators-out"><button data-operation>*</button></div>
+        <div class="operators-out"><button data-operation>/</button></div>
+      </div>
+      <div class="credits">
+        <h3>Design and created by <span>Kevin Sousa</span></h3>
+      </div>
+    </main>
+  </body>
+  <script src="/public/scripts/script.js"></script>
+</html>
