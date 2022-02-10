@@ -55,7 +55,7 @@ $ git clone https://github.com/KevinSYSousa/calculator
 $ cd calculator
 
 # Install dependencies
-$ yarn
+$ yarn install
 
 # Run the project
 $ yarn start
